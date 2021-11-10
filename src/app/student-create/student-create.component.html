@@ -1,0 +1,77 @@
+<section id="contact">
+    <div class="container-lg">
+      
+      <div class="text-center">
+        <h2>Get in Touch</h2>
+        <p class="lead">Create New Account</p>
+      </div>
+      <div class="row justify-content-center my-5">
+        <div class="col-lg-6">
+          
+          <form>
+            <label for="name" class="form-label">Name:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-person-fill text-secondary"></i>
+              </span>
+              <input type="text" id="name" class="form-control" placeholder="Type Name Here" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+
+            <label for="name" class="form-label">Birthday:</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-calendar2-date-fill"></i>
+              </span>
+              <input type="number" id="name" class="form-control" placeholder="Day" />
+              <input type="number" id="name" class="form-control" placeholder="Month" />
+              <input type="number" id="name" class="form-control" placeholder="Year" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Pretty self explanatory really...">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+
+            <label for="email" class="form-label">Email address:</label>
+            <div class="input-group mb-4">
+              <span class="input-group-text">
+                <i class="bi bi-envelope-fill text-secondary"></i>
+              </span>
+              <input type="text" id="email" class="form-control" placeholder="Type E-mail Here" />
+              <!-- tooltip -->
+              <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter an email address we can reply to.">
+                  <i class="bi bi-question-circle text-muted"></i>
+                </span>
+              </span>
+            </div>
+            
+            <label for="subject" class="form-label">What is your question about?</label>
+            <div class="mb-4 input-group">
+              <span class="input-group-text">
+                <i class="bi bi-chat-right-dots-fill text-secondary"></i>
+              </span>
+              <select class="form-select" id="subject">
+                <option value="pricing" selected>Pricing query</option>
+                <option value="content">Content query</option>
+                <option value="other">Other query</option>
+              </select>
+            </div>
+            <div class="mb-4 mt-5 form-floating">
+              <textarea class="form-control" id="query" style="height: 140px" placeholder="query"></textarea>
+              <label for="query">Your query...</label>
+            </div>
+            <div class="mb-4 text-center">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
